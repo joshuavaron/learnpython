@@ -5,5 +5,10 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $("h1").css("color", "black");
     });
+    $("p").mouseenter(function(){
+        $("p").css("color", "yellow");
+    }).mouseleave(function(){
+        $("p").css("color", "black");
+    });
     $("p").slideDown("slow");
 });
