@@ -6,3 +6,7 @@ h1 {
   font-family: 'New Rocker', cursive;
   display: none;
 }
+
+p {
+  display: none;
+}
