@@ -7,6 +7,10 @@ h1 {
   display: none;
 }
 
-p {
+#yellow, .hidden_first, button {
   display: none;
+}
+
+#spacer {
+	height: 100px;
 }
