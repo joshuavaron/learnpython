@@ -15,5 +15,9 @@ $(document).ready(function(){
 
     $("button").click(function(){
         $("#text_1").show();
-   });
+    });
+    $('.pull-me').click(function(){
+        $('.panel').slideToggle('slow');
+    });
+
 });
